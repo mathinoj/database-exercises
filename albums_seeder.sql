@@ -1,5 +1,8 @@
 USE codeup_test_db;
 
+# FOR LAST EXERCISE
+# TRUNCATE albums;
+
 INSERT INTO albums (artist_name, album_name, release_date, sales, genre)
 VALUES  ('Elton John', 'Goodbye Yellow Brick Road', 1973, 8.5, 'Rock, pop rock, glam rock'),
         ('Guns N Roses', 'Appetite for Destruction', 1987, 21.9, 'Hard rock'),
